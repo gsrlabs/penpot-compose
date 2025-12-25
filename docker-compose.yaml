@@ -1,6 +1,6 @@
 
 x-flags: &penpot-flags
-  PENPOT_FLAGS: enable-prepl-server secure-session-cookies registration
+  PENPOT_FLAGS: registration disable-email-verification secure-session-cookies
 
 x-uri: &penpot-public-uri
   PENPOT_PUBLIC_URI: ${PENPOT_PUBLIC_URI}
